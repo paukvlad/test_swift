@@ -2,6 +2,14 @@ import Alamofire
 import MyLibrary
 
 class MockWeatherService: WeatherService {
+    func getTemperatureMin() async throws -> Int {
+        return 0
+    }
+    
+    func getTemperatureMax() async throws -> Int {
+        return 0
+    }
+    
     private var shouldSucceed: Bool
     private var shouldReturnTemperatureWithAnEight: Bool
 
