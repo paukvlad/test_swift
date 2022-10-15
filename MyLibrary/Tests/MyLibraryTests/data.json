@@ -1,0 +1,44 @@
+{
+  "coord": {
+    "lon": 123.262,
+    "lat": 44.5646
+  },
+  "weather": [
+    {
+      "id": 800,
+      "main": "Clear",
+      "description": "clear sky",
+      "icon": "01n"
+    }
+  ],
+  "base": "stations",
+  "main": {
+    "temp": 277.45,
+    "feels_like": 274.29,
+    "temp_min": 277.45,
+    "temp_max": 277.45,
+    "pressure": 1025,
+    "humidity": 40,
+    "sea_level": 1025,
+    "grnd_level": 1007
+  },
+  "visibility": 10000,
+  "wind": {
+    "speed": 3.76,
+    "deg": 280,
+    "gust": 9.9
+  },
+  "clouds": {
+    "all": 0
+  },
+  "dt": 1665859544,
+  "sys": {
+    "country": "CN",
+    "sunrise": 1665871350,
+    "sunset": 1665910944
+  },
+  "timezone": 28800,
+  "id": 2036338,
+  "name": "Kaitong",
+  "cod": 200
+}
