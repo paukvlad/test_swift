@@ -17,7 +17,7 @@ let city = "corvallis"
 
 class WeatherServiceImpl: WeatherService {
     
-    let url = "\(BaseUrl.realServer.rawValue)/data/2.5/weather?q=\(city)&units=imperia&appid=9ff3f9fc842d2eede2111794714c1adf"
+    let url = "\(BaseUrl.mockServer.rawValue)/data/2.5/weather?q=\(city)&units=imperia&appid=9ff3f9fc842d2eede2111794714c1adf"
     
     func getTemperature() async throws -> Int {
         return try await withCheckedThrowingContinuation { continuation in
